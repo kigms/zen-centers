@@ -1,0 +1,82 @@
+:root {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: linen;
+}
+
+/* .App {
+  margin-left: 60px;
+  margin-right: 60px;
+} */
+
+header img {
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  color: maroon;
+  /* text-shadow: black 1px 0 5px; */
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* margin-left: 50px; */
+}
+
+h2 {
+  color: darkslategray;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Card {
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+  box-shadow: 0 5px 25px darkgray;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  /* height: 450px; */
+}
+
+.Card img {
+  height: 330px;
+  width: 330px;
+  object-fit: cover;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  color: darkslategray;
+  margin-top: 0px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1 px solid transparent;
+  padding: .6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  color: whitesmoke;
+  background-color: maroon;
+  cursor: pointer;
+  transition-property: border-color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-behavior: normal;
+}
